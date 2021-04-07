@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+textarea:focus,
+input:focus {
+    outline: none;
+}
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    margin: 50px;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    height: 20%;
+}
+
+textarea {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.container {
+    width: 80%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.url-inp {
+    width: 30%;
+}
+
+.req-res {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.req-res-wrapper {
+    padding: 10px;
+    margin: 10px;
+    height: 80%;
+    width: 40%;
+}
+
+.d-none {
+    display: none;
+}
+
+.res-body {
+    height: 80%;
+    padding: 10%;
+    border: solid 1px black;
+}
+.req-body {
+    height: 80%;
+    position: relative;
+    padding: 10%;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ShmPostMan</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <input type="text" class="url-inp" placeholder="url Input" />
+                <form action="/action_page.php">
+                    <select name="cars" id="cars">
+                        <option value="select">select box</option>
+                        <option value="GET">GET</option>
+                        <option value="POST">POST</option>
+                    </select>
+                </form>
+                <button class="send">Submit</button>
+            </header>
+            <div class="req-res">
+                <div class="d-none req-res-wrapper">
+                    <p>Request Body:</p>
+                    <div class="req-body">
+                        <textarea> </textarea>
+                    </div>
+                </div>
+                <div class="d-none req-res-wrapper">
+                    <p>Response Body:</p>
+                    <div class="res-body">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Amet iure magnam necessitatibus repudiandae
+                            expedita, laborum natus facere consequatur et harum?
+                            Deleniti ullam, enim placeat adipisci ea nostrum
+                            dolore ex impedit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+            crossorigin="anonymous"
+        ></script>
+        <script src="./main.js"></script>
+    </body>
+</html>
